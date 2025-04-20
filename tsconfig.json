@@ -21,6 +21,9 @@
     "types": [
       "node"
     ]
+    "baseUrl": ".",               // <-- ADD THIS
+    "paths": {                    // <-- AND THIS
+      "@/*": ["src/*"]
   },
   "include": [
     "next-env.d.ts",
