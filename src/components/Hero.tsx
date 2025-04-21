@@ -3,7 +3,7 @@ import Link from "next/link";          // ⬅️ new
 export default function Hero() {
   return (
     <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" }, alignItems: "center", gap: 4, p: 8 }}>
-      {/* logo ... */}
+      <Image src="/logo.jpg" alt="Pachamama Studios logo" width={300} height={300} priority />
       <Box>
         <Typography variant="h2" gutterBottom>Pachamama Studios</Typography>
         <Typography variant="h5" sx={{ mb: 3 }}>
