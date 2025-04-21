@@ -1,4 +1,5 @@
 import { Box, Button, Typography, Stack } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";          // ⬅️ new
 export default function Hero() {
   return (
