@@ -1,6 +1,4 @@
-import type { APIRoute } from "astro"; // harmless for typing
-
-export const onRequestPost: APIRoute = async ({ request, env }) => {
+export const onRequestPost = async ({ request, env }) => {
   const formData = await request.formData();
   const name = formData.get("name") as string;
   const email = formData.get("email") as string;
